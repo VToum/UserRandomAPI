@@ -1,0 +1,32 @@
+.footer {
+  background-color: #1a202c; /* Cor de fundo mais escura para um visual mais moderno */
+  color: #edf2f7; /* Cor de texto mais clara para contraste */
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #38b2ac; /* Cor de destaque para o nome */
+}
+
+.footer-content p {
+  font-size: 1.2em;
+}
+
+.footer-bottom p {
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+  .footer {
+    position: static;
+  }
+}

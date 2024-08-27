@@ -1,0 +1,70 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para a tabela */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #1a202c; /* Cor de fundo mais escura para um visual mais moderno */
+  color: #edf2f7; /* Cor de texto mais clara para contraste */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para os botões */
+.button {
+  background-color: #38b2ac; /* Cor de destaque para os botões */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #38b2ac;
+}
+
+/* Estilos para o campo de texto */
+.text-field {
+  width: 100px;
+}
+
+/* Estilos para a tela de carregamento */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+  .table, .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .button, .text-field {
+    width: 100%;
+  }
+}
