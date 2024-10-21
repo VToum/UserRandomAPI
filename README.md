@@ -22,7 +22,7 @@ Clone o repositório:
 sh
 
 Copiar
-git clone https://github.com/vtoum/UserRandomAPI.git
+git clone https://github.com/VToum/UserRandomAPI.git
 Configuração: Configure o ambiente de desenvolvimento conforme as instruções no README.
 
 Executar a API: Utilize dotnet run para iniciar o servidor e acessar a documentação interativa em /swagger.
